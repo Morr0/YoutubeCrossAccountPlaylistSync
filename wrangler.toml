@@ -8,7 +8,7 @@ crons = ["*/5 * * * *"]
 [vars]
 # IDs of the source (A) and destination (B) playlists
 PLAYLIST_A_ID = "PLuNp9sDYqLCX0SgpVDJtiQOJ3eKx4u9Z4"
-PLAYLIST_B_ID = "PLuNp9sDYqLCVrd4caIOmfPoXSarF0DzuL"
+PLAYLIST_B_ID = "PLYIK3gD8ZCt9NAOm3cuimQ6HS0JcLAbth"
 
 # Optional: set to "true" to log intended changes without modifying playlists
 DRY_RUN = "false"
