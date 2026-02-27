@@ -1,0 +1,15 @@
+name = "youtube-playlist-sync"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[vars]
+# IDs of the source (A) and destination (B) playlists
+PLAYLIST_A_ID = "PLuNp9sDYqLCX0SgpVDJtiQOJ3eKx4u9Z4"
+PLAYLIST_B_ID = "PLuNp9sDYqLCVrd4caIOmfPoXSarF0DzuL"
+
+# Optional: set to "true" to log intended changes without modifying playlists
+DRY_RUN = "false"
+
