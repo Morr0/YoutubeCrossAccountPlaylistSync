@@ -3,7 +3,7 @@ main = "src/worker.js"
 compatibility_date = "2025-01-01"
 
 [triggers]
-crons = ["*/5 * * * *"]
+crons = ["0 */3 * * *"]
 
 [vars]
 # IDs of the source (A) and destination (B) playlists
